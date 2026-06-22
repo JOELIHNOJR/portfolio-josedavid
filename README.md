@@ -126,7 +126,7 @@ Configura las siguientes **variables de entorno** en tu panel de Vercel:
 Para que el botón "Descargar CV" funcione, coloca tu archivo PDF en:
 
 ```
-public/cv-jose-david.pdf
+public/CVJoseIbarguenv2pdf
 ```
 
 ---

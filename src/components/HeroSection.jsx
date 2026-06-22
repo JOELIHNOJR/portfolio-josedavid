@@ -77,6 +77,29 @@ export default function HeroSection() {
     );
   };
 
+  const handleDownloadCV = async (e) => {
+    e.preventDefault();
+    try {
+      // Usamos fetch para obtener el archivo como Blob y forzar el nombre de descarga en el navegador
+      const response = await fetch('/CVJoseIbarguenv2.pdf');
+      const blob = await response.blob();
+      const blobUrl = window.URL.createObjectURL(blob);
+
+      const link = document.createElement('a');
+      link.href = blobUrl;
+      link.download = 'CV_Jose_David_Ibarguen.pdf'; // El nombre exacto que queremos
+      document.body.appendChild(link);
+      link.click();
+
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(blobUrl);
+    } catch (error) {
+      console.error('Error descargando el CV:', error);
+      // Fallback: si fetch falla, intentar abrirlo en nueva pestaña
+      window.open('/CVJoseIbarguenv2.pdf', '_blank');
+    }
+  };
+
   return (
     <section
       id="hero"
@@ -190,8 +213,10 @@ export default function HeroSection() {
               </a>
 
               <a
-                href="/cv-jose-david.pdf"
-                download
+                href="/api/download"
+                download="CV_Jose_David_Ibarguen.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 id="cta-download-cv"
                 className="group flex items-center gap-2 px-6 py-3 bg-[var(--accent-orange)]/10 border border-[var(--accent-orange)]/30 rounded-xl text-[var(--accent-orange)] font-medium hover:bg-[var(--accent-orange)]/20 hover:shadow-[0_0_20px_rgba(255,107,53,0.3)] transition-all duration-300"
               >
