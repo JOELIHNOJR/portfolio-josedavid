@@ -1,6 +1,7 @@
 import { Space_Grotesk, Inter } from 'next/font/google';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
+import { Analytics } from "@vercel/analytics/next";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -75,6 +76,7 @@ export default function RootLayout({ children }) {
         style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}
       >
         <LanguageProvider>{children}</LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );
