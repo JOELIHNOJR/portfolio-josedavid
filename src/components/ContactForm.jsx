@@ -6,7 +6,7 @@ import ScrollReveal from './ScrollReveal';
 
 export default function ContactForm() {
   const { t } = useLanguage();
-  const [formData, setFormData] = useState({ name: '', email: '', company: '', message: '' });
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', company: '', message: '' });
   const [status, setStatus] = useState('idle'); // idle, loading, success, error
 
   const handleChange = (e) => {
@@ -26,7 +26,7 @@ export default function ContactForm() {
 
       if (res.ok) {
         setStatus('success');
-        setFormData({ name: '', email: '', company: '', message: '' });
+        setFormData({ name: '', email: '', phone: '', company: '', message: '' });
         setTimeout(() => setStatus('idle'), 5000);
       } else {
         setStatus('error');
@@ -91,6 +91,22 @@ export default function ContactForm() {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder={t('contact.email_placeholder')}
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-[var(--text-primary)] placeholder:text-[var(--text-primary)]/30 focus:outline-none focus:border-[var(--accent-cyan)]/50 focus:ring-1 focus:ring-[var(--accent-cyan)]/30 transition-all duration-300"
+              />
+            </div>
+
+            {/* Phone */}
+            <div>
+              <label htmlFor="contact-phone" className="block text-sm font-medium text-[var(--text-primary)]/70 mb-2">
+                {t('contact.phone_label')}
+              </label>
+              <input
+                type="tel"
+                id="contact-phone"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                placeholder={t('contact.phone_placeholder')}
                 className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-[var(--text-primary)] placeholder:text-[var(--text-primary)]/30 focus:outline-none focus:border-[var(--accent-cyan)]/50 focus:ring-1 focus:ring-[var(--accent-cyan)]/30 transition-all duration-300"
               />
             </div>

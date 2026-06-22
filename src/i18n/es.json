@@ -86,6 +86,8 @@
     "name_placeholder": "Tu nombre",
     "email_label": "Email",
     "email_placeholder": "tu@email.com",
+    "phone_label": "Teléfono / Celular (Opcional)",
+    "phone_placeholder": "+57 300 000 0000",
     "company_label": "Empresa",
     "company_placeholder": "Tu empresa",
     "message_label": "Mensaje",
