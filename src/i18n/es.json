@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "about": "Sobre Mí",
+    "experience": "Experiencia",
+    "techStack": "Tecnologías",
+    "education": "Formación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "> const developer = {",
+    "name": "  name: \"José David Ibargüen\"",
+    "role": "  role: \"Backend Java & Full Stack Developer\"",
+    "location": "  location: \"Medellín, Colombia\"",
+    "status": "  status: \"Ready to build 🚀\"",
+    "closing": "};",
+    "cta_linkedin": "LinkedIn",
+    "cta_github": "GitHub",
+    "cta_cv": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Desarrollador de Software Backend y Full Stack con experiencia comprobable en la construcción, mantenimiento y liderazgo técnico de sistemas empresariales de alta criticidad. Especializado en Java 8, Spring Boot y Node.js, con participación directa en módulos ERP de contabilidad, nómina, finanzas y rentas.",
+    "description2": "Experiencia comprobada en diseño de APIs RESTful, integración de sistemas de autenticación complejos (JWT, OAuth 2.0, OTP) y despliegue de infraestructura con Docker. Orientado a entregar código limpio, soluciones escalables y valor real de negocio en cada sprint.",
+    "highlights": {
+      "java": "Java 8+",
+      "spring": "Spring Boot",
+      "node": "Node.js",
+      "docker": "Docker",
+      "rest": "APIs RESTful",
+      "security": "OAuth 2.0 & JWT"
+    }
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "role": "Desarrollador de Software / Líder Técnico de Aplicación",
+    "company": "ADA S.A.S",
+    "location": "Medellín, Colombia",
+    "period": "Enero 2025 – Mayo 2026",
+    "badge": "Líder Técnico",
+    "bullets": [
+      "Lideré el diseño arquitectónico y desarrollo end-to-end de Pynta, aplicación corporativa construida desde cero, gestionando el ciclo de vida completo — requisitos, desarrollo, pruebas y despliegue — sobre Arquitectura por capas con Spring Boot, Node.js y PostgreSQL.",
+      "Desarrollé y mantuve funcionalidades críticas del ERP empresarial en módulos de contabilidad, nómina y gestión financiera sobre Java 8 con Oracle 11g, garantizando trazabilidad de transacciones de alto volumen.",
+      "Orquesté la construcción del portal transaccional corporativo para interacción segura con contratistas, proveedores y facilitadores, integrando control de acceso basado en roles (RBAC).",
+      "Arquitectonicé seguridad multicapa: OAuth 2.0 (SSO con Google e Instagram), JWT y autenticación de doble factor (OTP) vía email e Instagram DM.",
+      "Construí y expuse APIs RESTful con Spring Boot y Node.js, integrando con clientes web Angular, Ionic y React.",
+      "Implementé almacenamiento distribuido con MinIO para gestión de archivos estáticos y recursos multimedia.",
+      "Administré contenerización de microservicios con Docker y Portainer, acelerando ciclos CI/CD.",
+      "Gestioné control de versiones con Git, aplicando GitFlow en GitHub y GitLab."
+    ]
+  },
+  "techStack": {
+    "title": "Stack Tecnológico",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Bases de Datos",
+      "devops": "DevOps & CI/CD",
+      "security": "Seguridad & Auth",
+      "methodologies": "Metodologías & Otros"
+    }
+  },
+  "education": {
+    "title": "Formación Académica",
+    "degrees": [
+      {
+        "title": "Tecnólogo en Análisis y Desarrollo de Software",
+        "institution": "SENA",
+        "year": "2023"
+      },
+      {
+        "title": "Técnico en Desarrollo de Software",
+        "institution": "SENA",
+        "year": "2023"
+      }
+    ],
+    "languages_title": "Idiomas",
+    "languages": [
+      { "lang": "Español", "level": "Nativo" },
+      { "lang": "Inglés", "level": "Básico-Intermedio" }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente? Hablemos.",
+    "name_label": "Nombre",
+    "name_placeholder": "Tu nombre",
+    "email_label": "Email",
+    "email_placeholder": "tu@email.com",
+    "company_label": "Empresa",
+    "company_placeholder": "Tu empresa",
+    "message_label": "Mensaje",
+    "message_placeholder": "Cuéntame sobre tu proyecto...",
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito! Te responderé pronto.",
+    "error": "Hubo un error al enviar. Intenta de nuevo o contáctame directamente."
+  },
+  "footer": {
+    "made_with": "Hecho con",
+    "by": "por José David Ibargüen",
+    "availability": "Disponibilidad inmediata · Remoto / Híbrido / Presencial"
+  }
+}

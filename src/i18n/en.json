@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "techStack": "Tech Stack",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "> const developer = {",
+    "name": "  name: \"José David Ibargüen\"",
+    "role": "  role: \"Backend Java & Full Stack Developer\"",
+    "location": "  location: \"Medellín, Colombia\"",
+    "status": "  status: \"Ready to build 🚀\"",
+    "closing": "};",
+    "cta_linkedin": "LinkedIn",
+    "cta_github": "GitHub",
+    "cta_cv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Backend & Full Stack Software Developer with proven experience building, maintaining, and technically leading high-criticality enterprise systems. Specialized in Java 8, Spring Boot, and Node.js, with direct involvement in ERP modules for accounting, payroll, finance, and revenue.",
+    "description2": "Proven expertise in RESTful API design, complex authentication system integration (JWT, OAuth 2.0, OTP), and infrastructure deployment with Docker. Focused on delivering clean code, scalable solutions, and real business value every sprint.",
+    "highlights": {
+      "java": "Java 8+",
+      "spring": "Spring Boot",
+      "node": "Node.js",
+      "docker": "Docker",
+      "rest": "RESTful APIs",
+      "security": "OAuth 2.0 & JWT"
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "role": "Software Developer / Application Technical Lead",
+    "company": "ADA S.A.S",
+    "location": "Medellín, Colombia",
+    "period": "January 2025 – May 2026",
+    "badge": "Tech Lead",
+    "bullets": [
+      "Led the architectural design and end-to-end development of Pynta, a corporate application built from scratch, managing the complete software lifecycle — requirements, development, testing, and deployment — on Layered Architecture with Spring Boot, Node.js, and PostgreSQL.",
+      "Developed and maintained critical ERP functionalities in accounting, payroll, and financial management modules on Java 8 with Oracle 11g, ensuring high-volume transaction traceability.",
+      "Orchestrated the construction of the corporate transactional portal for secure interaction with contractors, suppliers, and facilitators, integrating Role-Based Access Control (RBAC).",
+      "Architected multi-layer security: OAuth 2.0 (SSO with Google and Instagram), JWT, and two-factor authentication (OTP) via email and Instagram DM.",
+      "Built and exposed RESTful APIs with Spring Boot and Node.js, integrating with Angular, Ionic, and React web clients.",
+      "Implemented distributed storage with MinIO for static file and multimedia resource management.",
+      "Managed microservices containerization with Docker and Portainer, accelerating CI/CD cycles.",
+      "Managed version control with Git, applying GitFlow workflows on GitHub and GitLab."
+    ]
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Databases",
+      "devops": "DevOps & CI/CD",
+      "security": "Security & Auth",
+      "methodologies": "Methodologies & Others"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "degrees": [
+      {
+        "title": "Technologist in Software Analysis & Development",
+        "institution": "SENA",
+        "year": "2023"
+      },
+      {
+        "title": "Technician in Software Development",
+        "institution": "SENA",
+        "year": "2023"
+      }
+    ],
+    "languages_title": "Languages",
+    "languages": [
+      { "lang": "Spanish", "level": "Native" },
+      { "lang": "English", "level": "Basic-Intermediate" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let's talk.",
+    "name_label": "Name",
+    "name_placeholder": "Your name",
+    "email_label": "Email",
+    "email_placeholder": "you@email.com",
+    "company_label": "Company",
+    "company_placeholder": "Your company",
+    "message_label": "Message",
+    "message_placeholder": "Tell me about your project...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! I'll get back to you soon.",
+    "error": "There was an error sending. Try again or contact me directly."
+  },
+  "footer": {
+    "made_with": "Made with",
+    "by": "by José David Ibargüen",
+    "availability": "Immediate availability · Remote / Hybrid / On-site"
+  }
+}
