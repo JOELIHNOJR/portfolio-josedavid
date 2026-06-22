@@ -99,56 +99,7 @@ npm start
 
 ---
 
-## 📬 Configuración del Formulario de Contacto
 
-El formulario de contacto funciona de dos maneras:
-
-### Sin configuración (desarrollo)
-Los mensajes se imprimen en la consola del servidor. Perfecto para desarrollo.
-
-### Con Nodemailer (producción)
-Configura las siguientes **variables de entorno** en tu panel de Vercel:
-
-| Variable | Descripción | Ejemplo |
-|----------|-------------|---------|
-| `SMTP_HOST` | Servidor SMTP | `smtp.gmail.com` |
-| `SMTP_PORT` | Puerto SMTP | `587` |
-| `SMTP_USER` | Email SMTP | `tu-email@gmail.com` |
-| `SMTP_PASS` | Password / App Password | `xxxx xxxx xxxx xxxx` |
-| `CONTACT_EMAIL` | Email destino | `josedavidibar9@gmail.com` |
-
-> **Tip:** Para Gmail, usa una [App Password](https://support.google.com/accounts/answer/185833) en vez de tu contraseña normal.
-
----
-
-## 📄 CV Descargable
-
-Para que el botón "Descargar CV" funcione, coloca tu archivo PDF en:
-
-```
-public/CVJoseIbarguenv2pdf
-```
-
----
-
-## 🌐 Deploy en Vercel
-
-### Opción 1: Automático (recomendado)
-
-1. Haz push del código a GitHub
-2. Ve a [vercel.com](https://vercel.com)
-3. Click "Import Project" → selecciona el repo
-4. Vercel detecta Next.js automáticamente → Click "Deploy"
-5. Configura las env vars para email en Settings → Environment Variables
-
-### Opción 2: CLI
-
-```bash
-npm i -g vercel
-vercel
-```
-
----
 
 ## 🎨 Paleta de Colores
 
